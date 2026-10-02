@@ -1,0 +1,7 @@
+.DS_Store
+*.zip
+*.xhin
+*.xhinpart
+/vendor/
+/node_modules/
+rescue-target.php

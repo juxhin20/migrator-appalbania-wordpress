@@ -1,0 +1,29 @@
+name: Release zip
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lint PHP
+        run: for f in xhin-migration.php uninstall.php includes/*.php; do php -l "$f"; done
+
+      - name: Build plugin zip (plugin files only, see .gitattributes)
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          git archive --format=zip --prefix=xhin-migration/ -o "xhin-migration-${VERSION}.zip" HEAD
+          unzip -l "xhin-migration-${VERSION}.zip"
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: xhin-migration-*.zip
+          generate_release_notes: true
