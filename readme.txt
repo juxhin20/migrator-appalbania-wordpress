@@ -5,8 +5,8 @@ Requires at least: 5.9
 Tested up to: 7.1
 Requires PHP: 7.4
 Stable tag: 1.3.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License: MIT
+License URI: https://opensource.org/licenses/MIT
 
 Backup, restore and move any WordPress site with one .xhin file. No size limits, compressed, verified and resumable. Free, by AppAlbania.
 

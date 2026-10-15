@@ -19,7 +19,7 @@
   <img alt="WordPress 5.9–7.1" src="https://img.shields.io/badge/WordPress-5.9%E2%80%937.1-21759b">
   <img alt="PHP 7.4–8.5" src="https://img.shields.io/badge/PHP-7.4%E2%80%938.5-777bb4">
   <img alt="Plugin Check: 0 errors" src="https://img.shields.io/badge/Plugin%20Check-0%20errors-2ea44f">
-  <img alt="License GPL-2.0-or-later" src="https://img.shields.io/badge/license-GPL--2.0--or--later-blue">
+  <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-blue">
 </p>
 
 ---
@@ -101,5 +101,5 @@ Push a tag like `v1.3.0` — the workflow builds `xhin-migration-1.3.0.zip` (plu
 
 ## License
 
-GPL-2.0-or-later — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE).
 Made in Tirana by [AppAlbania](https://appalbania.com) · Website: [appalbania.com/migration](https://appalbania.com/migration/)
