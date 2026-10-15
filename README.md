@@ -10,6 +10,12 @@
 </p>
 
 <p align="center">
+  <a href="https://appalbania.com/migration/migration-by-appalbania.zip"><img src="https://img.shields.io/badge/Download-Plugin%20zip-d22027?style=for-the-badge&logo=wordpress&logoColor=white" alt="Download the plugin"></a>
+  &nbsp;
+  <a href="https://appalbania.com/migration/"><img src="https://img.shields.io/badge/Website-appalbania.com%2Fmigration-111111?style=for-the-badge&logo=safari&logoColor=white" alt="Website"></a>
+</p>
+
+<p align="center">
   <img alt="WordPress 5.9–7.1" src="https://img.shields.io/badge/WordPress-5.9%E2%80%937.1-21759b">
   <img alt="PHP 7.4–8.5" src="https://img.shields.io/badge/PHP-7.4%E2%80%938.5-777bb4">
   <img alt="Plugin Check: 0 errors" src="https://img.shields.io/badge/Plugin%20Check-0%20errors-2ea44f">
@@ -61,7 +67,7 @@ More: [test run with 35 plugins active](docs/screenshots/plugin-heavy-test/) · 
 
 ## Install
 
-1. Download the latest zip from [Releases](../../releases) (or zip this repository's plugin files).
+1. [Download the plugin zip](https://appalbania.com/migration/migration-by-appalbania.zip) (always the latest version) — or get it from [Releases](../../releases).
 2. WordPress → **Plugins → Add New → Upload Plugin** → choose the zip → **Install** → **Activate**.
 3. Open **Migration** in the admin menu.
 
@@ -96,4 +102,4 @@ Push a tag like `v1.3.0` — the workflow builds `xhin-migration-1.3.0.zip` (plu
 ## License
 
 GPL-2.0-or-later — see [LICENSE](LICENSE).
-Made in Tirana by [AppAlbania](https://appalbania.com).
+Made in Tirana by [AppAlbania](https://appalbania.com) · Website: [appalbania.com/migration](https://appalbania.com/migration/)
